@@ -1,0 +1,34 @@
+<div class="formContainer">
+  <div *ngIf="generalError.length > 0">
+    <p>{{generalError}}</p>
+  </div>
+  <fieldset>
+    <label for="postalCode">CEP:</label>
+    <input type="text" id="postalCode" [(ngModel)]="postalCode" (input)="onInputCep()" maxlength="8">
+  </fieldset>
+  <fieldset>
+    <label for="road">Rua:</label>
+    <input type="text" id="road" [(ngModel)]="road">
+  </fieldset>
+  <fieldset>
+    <label for="addressNumber">Número:</label>
+    <input type="text" id="addressNumber" [(ngModel)]="addressNumber">
+  </fieldset>
+  <fieldset>
+    <label for="complement">Complemento:</label>
+    <input type="text" id="complement" [(ngModel)]="complement">
+  </fieldset>
+  <fieldset>
+    <label for="district">Bairro:</label>
+    <input type="text" id="district" [(ngModel)]="district">
+  </fieldset>
+  <fieldset>
+    <label for="city">Cidade:</label>
+    <input type="text" id="city" [(ngModel)]="city">
+  </fieldset>
+  <fieldset>
+    <label for="state">Estado:</label>
+    <input type="text" id="state" [(ngModel)]="state">
+  </fieldset>
+
+</div>
