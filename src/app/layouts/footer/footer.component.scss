@@ -1,12 +1,16 @@
 footer {
   width: 100%;
   min-height: 50px;
-  box-shadow: 1px -2px 2px 1px rgba(0, 0, 0, .1);
+  // box-shadow: 1px -2px 2px 1px rgba(0, 0, 0, .1);
   font-size: 16px;
   display: flex;
   place-content: center;
   place-items: center;
   margin-top: 24px;
+  padding: 20px 0;
+  background: #CFD8DC;
+  grid-area: "footer";
+
   p {
     margin: 0;
     text-align: center;

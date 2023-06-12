@@ -1,12 +1,15 @@
 header {
   width: 100%;
   height: 200px;
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .1);
+  // box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .1);
   font-size: 48px;
   display: flex;
   place-content: center;
   place-items: center;
   margin-bottom: 24px;
+  background: #CFD8DC;
+  grid-area: "header";
+
   p {
     margin: 0;
     text-align: center;

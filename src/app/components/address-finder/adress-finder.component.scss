@@ -2,6 +2,8 @@
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  padding: 24px 16px;
+  grid-area: "content";
 
   > div {
     background: rgba(255, 0, 0, .2);
@@ -16,7 +18,7 @@
     width: 100%;
     border: none;
     box-sizing: border-box;
-    padding: 0 16px
+    padding: 8px 0;
 
     label {
       display: block;
